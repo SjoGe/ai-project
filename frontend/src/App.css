@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+#root {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: 2rem;
+  color: #f8fafc;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  color: #94a3b8;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  border: 1px solid #334155;
+}
+
+h2,
+h3 {
+  color: #f8fafc;
+  margin-top: 0;
+}
+
+textarea,
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #94a3b8;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:disabled {
+  background-color: #64748b;
+  cursor: not-allowed;
+}
+
+.buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.outputBox {
+  background: #111827;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 16px;
+  border: 1px solid #374151;
+}
+
+.quizItem {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #475569;
+}
+
+.quizItem:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.message {
+  margin-top: 10px;
+  color: #86efac;
+}
+
+.loading {
+  text-align: center;
+  font-weight: bold;
+  color: #cbd5e1;
+}
+
+.historyItem {
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
